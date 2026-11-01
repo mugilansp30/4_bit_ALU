@@ -1,0 +1,6 @@
+# ModelSim / QuestaSim compilation and simulation outputs
+work/
+transcript
+*.wlf
+*.log
+modelsim.ini
