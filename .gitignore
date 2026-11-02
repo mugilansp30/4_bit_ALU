@@ -1,6 +1,38 @@
-# ModelSim / QuestaSim compilation and simulation outputs
+﻿# ==========================================
+# Common Git Ignore for ModelSim / HDL EDA
+# ==========================================
+
+# ModelSim & QuestaSim compilation libraries
 work/
+*_work/
+work.*/
+
+# ModelSim runtime & waveform logs
 transcript
 *.wlf
-*.log
+vsim.wlf
+wlft*
 modelsim.ini
+
+# Coverage & Simulation artifacts
+covhtmlreport/
+*.ucdb
+*.vstf
+*.mti
+
+# General Waveform & Dump files
+*.vcd
+*.fsdb
+*.vpd
+*.shm
+*.eda
+*.log
+
+# Editor & OS temporary files
+.DS_Store
+Thumbs.db
+*.swp
+*~
+*.bak
+.vscode/
+.idea/
